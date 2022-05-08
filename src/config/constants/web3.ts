@@ -22,8 +22,8 @@ export const SUPPORTED_CHAIN_IDS: SupportedChainId[] = [SupportedChainId.MAIN, S
 type AddressMap = { [chainId: number]: string }
 
 export const RCM_PUNK_CONTRACT_ADDRESSES: AddressMap = {
-  [SupportedChainId.MAIN]: '0x9712411BcDCa9d25637CBa8111f74a00a14824fE',
-  [SupportedChainId.RINKEBY_TESTNET]: '0x9712411BcDCa9d25637CBa8111f74a00a14824fE',
+  [SupportedChainId.MAIN]: '0x20d0EB39C4A9e22e0C4e3d2b9E50215A1962D1e0',
+  [SupportedChainId.RINKEBY_TESTNET]: '0x20d0EB39C4A9e22e0C4e3d2b9E50215A1962D1e0',
 }
 
 export const CONTRACT_ABIS = {

@@ -1,5 +1,5 @@
 import { JsonRpcProvider, StaticJsonRpcProvider } from '@ethersproject/providers'
-import { BigNumber, Contract, ethers } from 'ethers'
+import { BigNumber, Contract, ethers, utils } from 'ethers'
 
 import { getBalanceNumber } from './bigNumberHelper'
 
@@ -56,4 +56,17 @@ export const whiteListMint = async (rcmPunksContract: Contract, amount: number, 
   const receipt = await txHash.wait()
 
   return { status: receipt.status, txHash: receipt.transactionHash }
+}
+
+export const getTotalMintAmount = async (rcmPunksContract: Contract) => {
+  const res = await rcmPunksContract.totalSupply()
+  return res.toString()
+}
+
+export const getWhiteListMintPrice = async (rcmPunksContract: Contract) => {
+  return await rcmPunksContract.whiteListPrice()
+}
+
+export const getPublicMintPrice = async (rcmPunksContract: Contract) => {
+  return await rcmPunksContract.publicPrice()
 }
