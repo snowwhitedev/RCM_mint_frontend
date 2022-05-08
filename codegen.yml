@@ -1,0 +1,11 @@
+overwrite: true
+schema: 'https://terradux-api-iw2xtmvktq-uc.a.run.app/graphql'
+documents: 'src/apollo/Operations/**/*'
+generates:
+  src/apollo/Generated/graphql.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
+    config:
+      withHooks: true

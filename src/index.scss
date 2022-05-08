@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Inter';
+  font-weight: 300 700;
+  src: local('Inter'), url(styles/fonts/Inter/Inter-VariableFont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'RoxBoroughCF';
+  font-style: normal;
+  font-weight: 200;
+  src: local('RoxBoroughCF'), url(styles/fonts/RoxBoroughCF/RoxboroughCF-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'RoxBoroughCF';
+  font-style: normal;
+  font-weight: 300;
+  src: local('RoxBoroughCF'), url(styles/fonts/RoxBoroughCF/RoxboroughCF-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'RoxBoroughCF';
+  font-style: normal;
+  font-weight: 400;
+  src: local('RoxBoroughCF'), url(styles/fonts/RoxBoroughCF/RoxboroughCF-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'RoxBoroughCF';
+  font-style: normal;
+  font-weight: 500;
+  src: local('RoxBoroughCF'), url(styles/fonts/RoxBoroughCF/RoxboroughCF-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'RoxBoroughCF';
+  font-style: normal;
+  font-weight: 600;
+  src: local('RoxBoroughCF'), url(styles/fonts/RoxBoroughCF/RoxboroughCF-DemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'RoxBoroughCF';
+  font-style: normal;
+  font-weight: 700;
+  src: local('RoxBoroughCF'), url(styles/fonts/RoxBoroughCF/RoxboroughCF-Bold.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
